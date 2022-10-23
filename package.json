@@ -1,0 +1,36 @@
+{
+  "name": "stock-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "stock-reporter": "./bin/stock-reporter.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingsu1996/profolio-reporter.git"
+  },
+  "keywords": [
+    "finance",
+    "cli",
+    "reporter"
+  ],
+  "author": "jing.tech.tw@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jingsu1996/profolio-reporter/issues"
+  },
+  "homepage": "https://github.com/jingsu1996/profolio-reporter#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-table3": "^0.6.3",
+    "date-fns": "^2.29.3",
+    "node-fetch": "^3.2.10",
+    "ramda": "^0.28.0",
+    "yahoo-finance": "^0.3.7",
+    "yargs": "^13.3.2"
+  }
+}
